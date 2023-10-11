@@ -71,7 +71,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<httparty>.freeze, ["= 0.17.0"])
+      s.add_runtime_dependency(%q<httparty>.freeze, ["~> 0.21.0"])
       s.add_development_dependency(%q<rdoc>.freeze, ["~> 3.12"])
       s.add_development_dependency(%q<rspec>.freeze, ["~> 3.7.0"])
       s.add_development_dependency(%q<simplecov>.freeze, ["~> 0.7.1"])
